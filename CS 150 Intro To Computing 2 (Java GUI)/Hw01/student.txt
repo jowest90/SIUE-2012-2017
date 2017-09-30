@@ -1,0 +1,10 @@
+first8,last8,str8,city7,state8,zip8,88,CS,U,Freshman
+first2,last2,str2,city2,state2,zip2,22,CS,G,Advisor1
+first1,last1,str1,city1,state1,zip1,11,MATH,U,Senior
+first7,last7,str7,city7,state7,zip7,77,MATH,G,Advisor2
+first3,last3,str3,city3,state3,zip3,33,PHYS,U,Junior
+first10,las10,str10,city10,state10,zip10,10,CS,G,Advisor1
+first5,last5,str5,city5,state5,zip5,55,PHYS,U,Senior
+first4,last4,str4,city4,state4,zip4,44,CHEM,G,Advisor3
+first6,last6,str6,city6,state6,zip6,66,CS,U,Sophomore
+first9,last9,str9,city8,state9,zip9,99,CIS,G,Advisor4

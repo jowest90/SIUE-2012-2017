@@ -1,0 +1,10 @@
+first8,last8,str8,city7,state8,zip8,8,1/1/90,Facilities,30000.0,A,Janitor
+first2,last2,str2,city2,state2,zip2,2,1/1/12,CS,50000.0,F,Assistant,6
+first1,last1,str1,city1,state1,zip1,1,1/1/13,CS,60000.0,F,Associate,5
+first7,last7,str7,city7,state7,zip7,7,1/1/90,Engineering,100000.0,A,Dean
+first3,last3,str3,city3,state3,zip3,3,1/1/92,MIS,65000.0,F,Associate,2
+first10,las10,str10,city10,state10,zip10,10,1/1/90,Payroll,50000.0,A,Clerk
+first5,last5,str5,city5,state5,zip5,5,1/1/84,CS,90000.0,F,Professor,1
+first4,last4,str4,city4,state4,zip4,4,1/1/90,MATH,70000.0,F,Professor,3
+first6,last6,str6,city6,state6,zip6,6,1/1/90,Provost,150000.0,A,Provost
+first9,last9,str9,city8,state9,zip9,9,1/1/90,Bursar,50000.0,A,Clerk

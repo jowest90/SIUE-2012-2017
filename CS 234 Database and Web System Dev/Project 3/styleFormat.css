@@ -1,0 +1,68 @@
+/* 
+    Document   : newcss
+    Created on : Mar 20, 2014, 9:19:07 PM
+    Author     : Johnny
+    Description: a stylesheet for my html files.
+*/
+body
+{
+background: #D2B48C;
+}
+
+ul
+{
+font-family: "Arial";
+background-color:#556B2F;
+margin:0px 0px 0px -10px;
+padding:0;
+position: absolute;
+text-align:right;
+}
+
+a
+{
+display:block;
+width:100px;
+}
+
+h1{
+font-family: "Arial";
+font-size: 20px;
+padding-left:90px;
+
+}
+
+#indent{
+font-family: "Arial";
+padding-left:90px;
+}
+
+#bar1{
+display:block;
+background-color:#556B2F;
+padding: 10px 0px 10px 0px;
+margin: 0px 0px 0px -10px;
+color:#556B2F;
+}
+#bar2{
+display:block;
+font-family: "Arial";
+background-color:#556B2F;
+padding: 10px 0px 10px 0px;
+margin: 0px 0px 0px -10px;
+text-align:right;
+}
+
+#box {
+width:1000px;
+border-style:solid;
+border-width:medium;
+padding-left:100px;
+}
+
+#box2{
+width:1700px;
+border-style:solid;
+border-width:medium;
+}
+

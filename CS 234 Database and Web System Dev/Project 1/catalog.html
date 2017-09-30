@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Author:      John West
+File Name:   catalog.html
+Date:        3/23/2014
+Description: to select items to put in checkout.
+-->
+<html>
+    <head>
+        <title>catalog</title>
+		<link rel="stylesheet" type="text/css" href="styleFormat.css" /> 
+		<img src ="images/banner1.jpg" alt="home" align=top align=right>
+    </head>
+    <body>
+	
+	<span id= "bar2">Not logged in</span>
+	<!-- navigation menu -->
+    <ul>
+       <li><a href="index.html">Home page</a>
+	   <li><a href="login.html">Login</a>
+	   <li><a href="register.php">Register</a> 
+	   <li><a href="checkout.php">checkout</a> 
+	</ul>    
+	<!-- Main page -->
+	<h1>Catalog:
+	<div id= "indent">
+	<div id="box">
+	<img src ="images/steam.jpg" class="catalog" alt="steam" width="300" height="150"> 
+	USRA 0-8-0 - Tsunami(R) Sound & DCC
+	<form action="checkout.php" method="POST">
+		<input type="submit" name="shp1" value="buy" >
+		</form>
+	</div>
+	</div>
+	<div id= "indent">
+	<div id="box">
+	<img src ="images/diesel.jpg" class="catalog" alt="steam" width="300" height="150">
+	Proto N Hobby Quality Diesel EMD GP60 
+	<form action="checkout.php" method="POST">
+		<input type="submit" name="shp2" value="buy" >
+		</form>
+	</div>
+	</div>
+	</div>
+    </body>
+</html>

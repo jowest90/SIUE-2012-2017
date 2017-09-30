@@ -1,0 +1,29 @@
+/* 
+    Document   : newcss
+    Created on : Mar 20, 2014, 9:19:07 PM
+    Author     : Johnny
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#nav
+{
+position:absolute;
+left:0px;
+width:100px;
+}
+
+#body
+{
+position:absolute;
+left:200px;
+width:500px;
+}
+
+#box
+{
+width:100px;
+padding:10px;
+border:5px solid gray;
+margin:0px;
+}

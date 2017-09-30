@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Author:      John West
+File Name:   form.html
+Date:        2/28/2014
+Description: html file to submit a form.
+-->
+<html>
+    <head>
+	<link rel="stylesheet" type="text/css" href="style.css" /> 
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Profile Page </h1>
+		<div id = "box">
+        <form action="myform.php" method="post">
+            Name: <input type="text" name="name"><br>
+            Gender:
+            <input type="radio" name="sex" value="male">Male
+            <input type="radio" name="sex" value="female">Female<br>
+            Brand of vehicle:<br>
+            <input type="checkbox" name="vehicle" value="Chevy">Chevy<br>
+            <input type="checkbox" name="vehicle" value="Toyota">Toyota <br>
+            <input type="checkbox" name="vehicle" value="Ford">Ford<br>
+            <input type="checkbox" name="vehicle" value="Hyundai">Hyundai <br>
+			<input type="submit" name="submit" value="submit">
+			<input type="reset" name="cancel" value="cancel" ><br>
+		</form>
+		</div>
+    </body>
+</html>

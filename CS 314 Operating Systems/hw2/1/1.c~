@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int a = 0;
+
+int main(){
+fork();
+printf("%d\n", ++a);
+/*
+fork();
+printf("%d\n", ++a);
+fork();
+printf("%d\n", ++a);
+*/
+exit(0);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Author:      John West
+File Name:   register.html
+Date:        3/20/2014
+Description: html file to test regular exspressions.
+-->
+<html>
+    <head>
+        <title>Register</title>
+		<link rel="stylesheet" type="text/css" 
+			  href="styleFormat.css" /> 
+    </head>
+    <body>
+	   <div id = "left">
+		<div id = "box">
+		<!-- navigation menu -->
+		<li><a href="index.html">Home page</a>
+		<li><a href="login.html">Login</a>
+		<li><a href="register.html">Register</a> 
+		</div>   
+	</div>
+	<!-- Logn page -->
+	<div id="body">
+	<h1>Register</h1>
+        <form id="myForm" onsubmit="return checkForm(this);">
+		<p>Username: <input id="field_username" type="text" name="username"></p>
+		<p>Password: <input id="field_pwd1" type="password" name="pwd1"></p>
+		<p>Confirm Password: <input id="field_pwd2" type="password" name="pwd2"></p>
+		<p>Email: <input id="field_email" type="password" name="email"></p>
+		<p><input type="submit" value="Submit"></p>
+	</form>
+	</div>
+    </body>
+</html>
